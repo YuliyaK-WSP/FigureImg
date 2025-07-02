@@ -10,7 +10,6 @@ public class Circle: IShape
     }
     public void Draw()
     {
-        // Уравнение круга: (x - r)^2 + (y - r)^2 = r^2
         int deametr = Radius * 2;
 
         for (int i = 0; i <= deametr; i++)
